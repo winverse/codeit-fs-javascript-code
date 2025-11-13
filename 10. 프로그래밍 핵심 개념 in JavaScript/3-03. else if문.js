@@ -20,15 +20,15 @@ if (조건1) {
 let hour = 14; // 현재 시간 (24시간 기준)
 
 if (hour < 6) {
-  console.log('안녕히 주무세요!');
+  console.log("안녕히 주무세요!");
 } else {
   if (hour < 12) {
-    console.log('좋은 아침입니다!');
+    console.log("좋은 아침입니다!");
   } else {
     if (hour < 18) {
-      console.log('안녕하세요!');
+      console.log("안녕하세요!");
     } else {
-      console.log('좋은 저녁입니다!');
+      console.log("좋은 저녁입니다!");
     }
   }
 }
@@ -55,11 +55,11 @@ if (조건1) {
 let hour2 = 20; // 현재 시간 (24시간 기준)
 
 if (hour2 < 6) {
-  console.log('안녕히 주무세요!');
+  console.log("안녕히 주무세요!");
 } else if (hour2 < 12) {
-  console.log('좋은 아침입니다!');
+  console.log("좋은 아침입니다!");
 } else if (hour2 < 18) {
-  console.log('안녕하세요!');
+  console.log("안녕하세요!");
 } else {
-  console.log('좋은 저녁입니다!');
+  console.log("좋은 저녁입니다!");
 }

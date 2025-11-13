@@ -11,9 +11,7 @@ showLocalPrice(); // "상점 가격: 2000원" 출력
 
 // console.log(price); // Error: price is not defined
 
-
 // ---
-
 
 // 전역 스코프
 // 본사(전역)의 정가
@@ -26,9 +24,7 @@ function showGlobalPrice() {
 showGlobalPrice(); // "본사 가격: 3000원" 출력
 console.log(`전체 정가: ${price}원`); // "전체 정가: 3000원" 출력
 
-
 // ---
-
 
 // 스코프 체인
 let priceChain = 3000; // 전역 변수 (본사 정가)

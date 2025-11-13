@@ -1,7 +1,7 @@
 // 1-01. 숫자형(Number) 실습
 
 // --- 사칙연산 ---
-console.log('--- 사칙연산 ---');
+console.log("--- 사칙연산 ---");
 // 덧셈
 console.log(25000 + 3000);
 
@@ -12,20 +12,18 @@ console.log(50000 - 25000);
 console.log(25000 * 3);
 
 // 나눗셈
-console.log(25000 / 5)
-
+console.log(25000 / 5);
 
 // --- 특수 연산 ---
-console.log('\n--- 특수 연산 ---');
+console.log("\n--- 특수 연산 ---");
 // 나머지 연산 (%)
 console.log(28 % 6);
 
 // 거듭제곱 연산 (**)
-console.log(2 ** 3)
-
+console.log(2 ** 3);
 
 // --- 연산자 우선순위 ---
-console.log('\n--- 연산자 우선순위 ---');
+console.log("\n--- 연산자 우선순위 ---");
 // 곱셈이 덧셈보다 먼저 계산됩니다.
 console.log(1000 + 3000 * 3);
 

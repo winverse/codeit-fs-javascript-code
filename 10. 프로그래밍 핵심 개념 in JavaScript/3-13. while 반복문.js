@@ -18,7 +18,7 @@ while (count > 0) {
   count--; // count 값을 1씩 감소
 }
 
-console.log('발사!');
+console.log("발사!");
 
 // ---
 
@@ -26,17 +26,17 @@ console.log('발사!');
 let targetNumber = Math.floor(Math.random() * 100) + 1; // 1~100 사이의 랜덤 숫자
 let guess = 0; // 사용자의 추측 값
 
-console.log('1부터 100 사이의 숫자를 맞춰보세요!');
+console.log("1부터 100 사이의 숫자를 맞춰보세요!");
 
 while (guess !== targetNumber) {
   // 실제 게임에서는 사용자로부터 입력을 받지만, 여기서는 임의의 값으로 대체합니다.
-  guess = Math.floor(Math.random() * 100) + 1; 
+  guess = Math.floor(Math.random() * 100) + 1;
   console.log(`추측: ${guess}`);
 
   if (guess < targetNumber) {
-    console.log('더 큰 숫자입니다!');
+    console.log("더 큰 숫자입니다!");
   } else if (guess > targetNumber) {
-    console.log('더 작은 숫자입니다!');
+    console.log("더 작은 숫자입니다!");
   }
 }
 
